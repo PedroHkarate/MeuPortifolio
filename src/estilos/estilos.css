@@ -24,6 +24,12 @@ header {
     text-decoration: none;
 }
 
+.topo__texto:hover{
+    transform: scale(1.02);
+    color: rgb(158, 227, 158);
+    text-shadow: 0 0 10px limegreen, 0 0 20px limegreen, 0 0 30px limegreen;
+}
+
 .inicio {
     padding-left: 280px;
 }
@@ -55,6 +61,11 @@ header {
     color: limegreen;
 }
 
+.titulo-destaque:hover{
+    color: rgb(158, 227, 158);
+    text-shadow: 0 0 10px limegreen, 0 0 20px limegreen, 0 0 30px limegreen;
+}
+
 .apresentacao__corpo__sobre {
     font-size: 24px;
     font-family: "Montserrat", 'sans-serif';
@@ -71,19 +82,30 @@ header {
 .titulo__redes{
     font-family: "Krona One", 'sans-serif';
     font-size: 24px;
+    font-weight: 400;
 }
 
 .buttom__link {
-    background-color: limegreen;
-    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 16px;
+    width: 378px;
     text-align: center;
     text-decoration: none;
     font-size: 24px;
     font-family: "Montserrat", 'sans-serif';
     font-weight: 600;
     padding: 21.5px 0;
-    color: black;
-    border-radius: 16px;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid limegreen;
+}
+
+.buttom__link:hover{
+    background-color: #272727;
+    transform: scale(1.02);
+    transition: 100ms;
 }
 
 footer {
