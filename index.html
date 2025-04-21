@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Pedro Henrique</title>
+    <title>Portfólio | Início</title>
     <link rel="stylesheet" href="/src/estilos/reset.css">
     <link rel="stylesheet" href="/src/estilos/estilos.css">
     <link rel="stylesheet" href="/src/estilos/fontes.css">
@@ -15,26 +15,32 @@
 
 <body>
     <header class="topo">
-        <a class="topo__texto inicio" href="#">Início</a>
-        <a class="topo__texto sobre" href="#">Sobre Mim</a>
-        <a class="topo__texto projeto" href="#"> Projetos</a>
+        <nav class="topo__menu">
+            <a class="topo__menu__link inicio" href="/index.html">Início</a>
+            <a class="topo__menu__link sobre" href="/src/paginas/sobre_mim.html">Sobre Mim</a>
+            <a class="topo__menu__link projeto" href="/src/paginas/projetos.html"> Projetos</a>
+        </nav>
     </header>
     <main class="apresentacao">
         <section class="apresentacao__corpo">
             <h1 class="apresentacao__corpo__titulo">
-                Seja bem-vindo(a) ao meu Portfólio! <section class="apresentacao__corpo__titulo__subtitulo">Conheça mais sobre o trabalho de <strong
-                    class="titulo-destaque">Pedro Henrique</strong>.</section>
+                Seja bem-vindo(a) ao meu Portfólio! <section class="apresentacao__corpo__titulo__subtitulo">Conheça mais
+                    sobre o trabalho de <strong class="titulo-destaque">Pedro Henrique</strong>.</section>
             </h1>
             <p class="apresentacao__corpo__sobre">
-                Olá! Sou Pedro Henrique, desenvolvedor Front-end com especialidade em HTML, CSS e Javascript. Estou dando os
+                Olá! Sou Pedro Henrique, desenvolvedor Front-end.
+                Estou
+                dando os
                 passos
-                iniciais no mercado de programação Front-end, me conheça mais através desta página e dos botões
+                iniciais no mercado de programação, me conheça mais através da aba <a
+                    class="apresentacao__corpo__sobre__link destaque" href="/src/paginas/sobre_mim.html"><strong>sobre
+                        mim</strong></a> e dos botões
                 abaixo!
             </p>
 
             <div class="buttom">
                 <h2 class="titulo__redes">Acesse minhas redes:</h2>
-                <a href="https://www.instagram.com/pedrohkarate/" class="buttom__link"> 
+                <a href="https://www.instagram.com/pedrohkarate/" class="buttom__link">
                     <img class="link__img" src="/src/imagens/instagram.png" alt="ícone-instagram">
                     Instagram
                 </a>
@@ -48,10 +54,13 @@
                 </a>
             </div>
         </section>
-        <img src="/src/imagens/Pedro Henrique.png" alt="Foto Pedro Henrique">
+
+        <div class="foto">
+            <img class="foto__pedro" src="/src/imagens/Pedro Henrique.png" alt="Foto Pedro Henrique">
+        </div>
     </main>
-    <footer>
-        <p class="direitos">Desenvolvido Por Pedro Henrique</a></p>
+    <footer class="rodape">
+        <p>Desenvolvido Por Pedro Henrique</p>
     </footer>
 </body>
 

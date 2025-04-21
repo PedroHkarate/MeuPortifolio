@@ -1,0 +1,25 @@
+.apresentacao{
+    padding: 5% 15%;
+}
+
+.apresentacao__corpo__titulo{
+    font-family: "Krona One", 'sans-serif';
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.destaque{
+    color: limegreen;
+}
+
+/* .apresentacao__corpo__sobre{
+    overflow-y: auto;
+} */
+
+.apresentacao__corpo__sobre__link{
+    text-decoration: none;
+}
+
+.apresentacao__corpo__sobre__link:hover{
+    text-decoration: underline;
+}

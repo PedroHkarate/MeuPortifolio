@@ -1,44 +1,44 @@
 body {
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: black;
     color: white;
     overflow-x: hidden;
 }
 
-header {
-    top: 0%;
-    width: 100vw;
-    background-color: black;
+.topo__menu {
     display: flex;
     align-items: center;
+    justify-content: center;
+    background-color: black;
     gap: 80px;
+    padding: 5% 0% 0% 0%;
 }
 
-.topo__texto {
+.topo__menu__link {
     font-family: "Montserrat", 'sans-serif';
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 600;
     color: limegreen;
-    padding-top: 100px;
     text-decoration: none;
 }
 
-.topo__texto:hover{
+.topo__menu__link:hover{
     transform: scale(1.02);
     color: rgb(158, 227, 158);
     text-shadow: 0 0 10px limegreen, 0 0 20px limegreen, 0 0 30px limegreen;
 }
 
-.inicio {
-    padding-left: 280px;
-}
+/* .inicio {
+    padding-left: 360px;
+} */
 
 .apresentacao {
     display: flex;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: space-between;
-    margin: 10% 15%;
+    padding: 5% 15%;
 }
 
 .apresentacao__corpo {
@@ -71,12 +71,27 @@ header {
     font-family: "Montserrat", 'sans-serif';
 }
 
+.apresentacao__corpo__sobre__link{
+    text-decoration: none;
+}
+
+.apresentacao__corpo__sobre__link:hover{
+    text-decoration: underline;
+}
+
+.destaque{
+    color: limegreen;
+}
+
 .buttom {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     gap: 32px 0;
+    padding: 10px 0px;
+    border: 2px solid rgb(95, 220, 95);
+    border-radius: 10px;
 }
 
 .titulo__redes{
@@ -108,20 +123,26 @@ header {
     transition: 100ms;
 }
 
-footer {
-    bottom: 0%;
-    width: 100vw;
-    height: 80px;
-    background-color: limegreen;
-    color: white;
+.foto{
+    border: 2px solid limegreen;
+    border-radius: 15px;
 }
 
-.direitos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 23.64px 0;
-    font-size: 30px;
+.foto__pedro{
+    position: relative;
+    padding: 5px;
+    /* right: 5%;
+    top: 25px; */
+    border-radius: 15px;
+}
+
+.rodape {
+    bottom: 0%;
+    padding: 24px;
+    background-color: limegreen;
+    color: white;
+    text-align: center;
+    font-size: 24px;
     font-family: "Montserrat", 'sans-serif';
     font-weight: 600;
 }
