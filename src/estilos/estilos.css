@@ -3,11 +3,13 @@ body {
     box-sizing: border-box;
     background-color: black;
     color: white;
-    overflow-x: hidden;
+    overflow-x: auto;
 }
 
 .topo__menu {
     display: flex;
+    /* flex-wrap: wrap;
+    overflow: auto; */
     align-items: center;
     justify-content: center;
     background-color: black;
@@ -44,6 +46,7 @@ body {
 .apresentacao__corpo {
     width: 615px;
     display: flex;
+    /* flex-wrap: wrap; */
     flex-direction: column;
     gap: 40px;
 }
