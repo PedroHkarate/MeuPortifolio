@@ -17,12 +17,12 @@ main{
     justify-content: center;
     font-family: "Montserrat", 'sans-serif';
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.125rem;
     padding: 1.5% 15%;
 }
 
 .titulo__projetos{
-    padding: 0% 15% 4% 15%;
+    padding: 9% 15% 4% 15%;
     text-align: center;
 }
 
@@ -38,7 +38,7 @@ main{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border: 4px solid limegreen;
+    border: 4px solid var(--cor-terciaria);
     border-radius: 10px;
     background-color: #454545;
     padding: 10px;
@@ -68,28 +68,28 @@ main{
 }
 
 .descricao{
-    background-color: white;
-    color: black;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
     border-radius: 10px;
 }
 
 .destaque__nome{
-    color: limegreen;
-    font-size: 20px;
+    color: var(--cor-terciaria);
+    font-size: 1.25rem;
     font-weight: 650;
 }
 
 .link__projetos{
     word-break: break-all;
     text-decoration: none;
-    color: black;
+    color: var(--cor-principal);
 }
 
 .link__projetos:hover{
     text-decoration: underline;
 }
 
-footer {
+.rodape {
     width: 100vw;
     position: fixed;
     bottom: 0%;

@@ -1,15 +1,15 @@
-.apresentacao{
-    padding: 5% 15%;
-}
+/* .apresentacao{
+    padding: 8% 15%;
+} */
 
 .apresentacao__corpo__titulo{
     font-family: "Krona One", 'sans-serif';
     font-weight: 400;
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 .destaque{
-    color: limegreen;
+    color: var(--cor-terciaria);
 }
 
 /* .apresentacao__corpo__sobre{

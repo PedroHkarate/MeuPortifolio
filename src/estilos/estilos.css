@@ -1,76 +1,75 @@
+@import url(/src/estilos/vars.css);
+
 body {
-    /* height: 100vh; */
     box-sizing: border-box;
-    background-color: black;
-    color: white;
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
     overflow-x: auto;
 }
 
 .topo__menu {
+    position: fixed;
+    top: 0%;
     display: flex;
-    /* flex-wrap: wrap;
-    overflow: auto; */
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: var(--cor-principal);
+    width: 100vw;
     gap: 80px;
     padding: 5% 0% 0% 0%;
 }
 
 .topo__menu__link {
     font-family: "Montserrat", 'sans-serif';
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
-    color: limegreen;
+    color: var(--cor-terciaria);
     text-decoration: none;
 }
 
 .topo__menu__link:hover{
     transform: scale(1.02);
     color: rgb(158, 227, 158);
-    text-shadow: 0 0 10px limegreen, 0 0 20px limegreen, 0 0 30px limegreen;
+    text-shadow: 0 0 10px var(--cor-terciaria), 0 0 20px var(--cor-terciaria), 0 0 30px var(--cor-terciaria);
 }
-
-/* .inicio {
-    padding-left: 360px;
-} */
 
 .apresentacao {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 5% 15%;
+    padding: 9% 15%;
+    overflow: auto;
 }
 
 .apresentacao__corpo {
     width: 615px;
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: column;
     gap: 40px;
+    overflow: auto;
 }
 
 .apresentacao__corpo__titulo {
-    font-size: 32px;
+    font-size: 2rem;
     font-family: "Krona One", 'sans-serif';
 }
 
 .apresentacao__corpo__titulo__subtitulo {
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 .titulo-destaque {
-    color: limegreen;
+    color: var(--cor-terciaria);
 }
 
 .titulo-destaque:hover{
     color: rgb(158, 227, 158);
-    text-shadow: 0 0 10px limegreen, 0 0 20px limegreen, 0 0 30px limegreen;
+    text-shadow: 0 0 10px var(--cor-terciaria), 0 0 20px var(--cor-terciaria), 0 0 30px var(--cor-terciaria);
 }
 
 .apresentacao__corpo__sobre {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: "Montserrat", 'sans-serif';
 }
 
@@ -83,7 +82,7 @@ body {
 }
 
 .destaque{
-    color: limegreen;
+    color: var(--cor-terciaria);
 }
 
 .buttom {
@@ -99,7 +98,7 @@ body {
 
 .titulo__redes{
     font-family: "Krona One", 'sans-serif';
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -111,13 +110,13 @@ body {
     width: 378px;
     text-align: center;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: "Montserrat", 'sans-serif';
     font-weight: 600;
     padding: 21.5px 0;
-    color: white;
+    color: var(--cor-secundaria);
     border-radius: 8px;
-    border: 2px solid limegreen;
+    border: 2px solid var(--cor-terciaria);
 }
 
 .buttom__link:hover{
@@ -127,25 +126,25 @@ body {
 }
 
 .foto{
-    border: 2px solid limegreen;
+    border: 2px solid var(--cor-terciaria);
     border-radius: 15px;
 }
 
 .foto__pedro{
-    position: relative;
     padding: 5px;
-    /* right: 5%;
-    top: 25px; */
     border-radius: 15px;
+    overflow: auto;
 }
 
 .rodape {
+    position: fixed;
+    width: 100vw;
     bottom: 0%;
     padding: 24px;
-    background-color: limegreen;
-    color: white;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: "Montserrat", 'sans-serif';
     font-weight: 600;
 }
