@@ -19,6 +19,10 @@
         gap: 40px;
     }
 
+    .topo__menu__link{
+        font-size: 1.25rem;
+    }
+
     .apresentacao__corpo{
         width: auto;
     }
