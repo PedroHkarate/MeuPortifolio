@@ -1,0 +1,21 @@
+@media (max-width: 1200px) {
+    
+    .topo__menu{
+        gap: 50px;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__corpo{
+        width: auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .topo__menu{
+        gap: 30px;
+    }
+}
