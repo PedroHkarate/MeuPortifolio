@@ -26,4 +26,9 @@
     .apresentacao__corpo{
         width: auto;
     }
+
+    .buttom__link{
+        gap: 0 12px;
+        font-size: 1.25rem;
+    }
 }
